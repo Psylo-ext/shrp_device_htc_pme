@@ -72,6 +72,23 @@ TARGET_HW_DISK_ENCRYPTION := true
 PLATFORM_VERSION := 20.1.0
 PLATFORM_SECURITY_PATCH := 2099-12-31
 
+# SHRP Defaults
+SHRP_MAINTAINER := DZZN-DEV
+SHRP_DEVICE_CODE := pme
+SHRP_PATH := device/htc/$(SHRP_DEVICE_CODE)
+SHRP_REC_TYPE := SAR
+SHRP_DEVICE_TYPE := A_Only
+SHRP_EDL_MODE := 1
+SHRP_EXTERNAL := /external_sd
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+SHRP_DARK := true
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
+SHRP_HAS_RECOVERY_PARTITION := true
+SHRP_NO_SAR_AUTOMOUNT := true
+SHRP_LITE := true
+
 # TWRP Build Flags
 TW_THEME := portrait_hdpi
 TW_EXCLUDE_DEFAULT_USB_INIT := true
