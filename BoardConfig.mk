@@ -65,7 +65,6 @@ BOARD_SUPPRESS_SECURE_ERASE := true
 
 # Encryption
 BOARD_USES_QCOM_DECRYPTION := true
-TARGET_HW_DISK_ENCRYPTION := true
 
 # Custom Platform Version and Security Patch
 # TWRP Defaults
